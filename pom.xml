@@ -19,6 +19,14 @@
 			<version>3.2.1</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- Java dependency -->
+		<dependency>
+			<groupId>jdk.tools</groupId>
+			<artifactId>jdk.tools</artifactId>
+			<scope>system</scope>
+			<version>1.8</version>
+			<systemPath>D:/opensource/jdk8/lib/tools.jar</systemPath>
+		</dependency>
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
